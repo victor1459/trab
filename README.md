@@ -17,7 +17,7 @@ Parametros
 Executando
 Para executar os testes basta ecolher o tamanho da cache, o algoritmo e passar o caminho do arquivo txt com os dados. Por exemplo:
 
-Comando
+//Comando
 ruby main.rb --path tests/inputs/in1.txt --size 4 --algorithm FIFO --mapping ASSOCIATIVE
 Saida
 -------- Cache --------
@@ -28,6 +28,7 @@ Saida
 |         2|         3|
 |         3|         1|
 -----------------------
+
 Mapeamento: Associativo 
 Algoritmo: FIFO 
 Misses: 9 
