@@ -16,17 +16,18 @@ Parametros
 --set_size: Representa o tamanho do conjunto para mapeamento associativo por conjunto, caso este parametro não seja passado, então é considerado o mapeamento associativo normal.
 Executando
 Para executar os testes basta ecolher o tamanho da cache, o algoritmo e passar o caminho do arquivo txt com os dados. Por exemplo:
+
 Comando
 ruby main.rb --path tests/inputs/in1.txt --size 4 --algorithm FIFO --mapping ASSOCIATIVE
 Saida
--------- Cache --------
+==========Cache=========
  Pos Cache | Mem. Ref. 
------------------------
+ 
 |         0|         2|
 |         1|         0|
 |         2|         3|
 |         3|         1|
------------------------
+ 
 
 Mapeamento: Associativo 
 Algoritmo: FIFO 
